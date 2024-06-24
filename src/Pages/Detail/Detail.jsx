@@ -47,7 +47,7 @@ function Detail() {
           {/* Logo */}
           <Link to={"/"} className="flex justify-center">
             <img
-              src="/public/images/logo.webp"
+              src="https://pokemon-api-weld.vercel.app/images/logo.webp"
               alt="logo"
               className="max-h-[70px] "
             />

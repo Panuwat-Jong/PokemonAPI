@@ -13,7 +13,7 @@ function Home() {
           <div className="flex justify-center">
             {/* <h1 className="text-7xl font-bold text-white">Pokédex</h1> */}
             <img
-              src="/public/images/logo.webp"
+              src="https://pokemon-api-weld.vercel.app/images/logo.webp"
               alt="logo"
               className="max-h-[70px] "
             />
