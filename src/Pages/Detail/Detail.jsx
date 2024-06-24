@@ -47,7 +47,7 @@ function Detail() {
           {/* Logo */}
           <Link to={"/"} className="flex justify-center">
             <img
-              src="/public/logo.webp"
+              src="/public/images/logo.webp"
               alt="logo"
               className="max-h-[70px] "
             />
@@ -146,7 +146,14 @@ function Detail() {
           </div>
         </div>
       </div>
-      {<Link to={"/"} className="absolute inset-14 border bg-white w-fit h-fit px-3 py-1 rounded-full hover:bg-slate-100">Back</Link>}
+      {
+        <Link
+          to={"/"}
+          className="absolute inset-14 border bg-white w-fit h-fit px-3 py-1 rounded-full hover:bg-slate-100"
+        >
+          Back
+        </Link>
+      }
     </section>
   );
 }

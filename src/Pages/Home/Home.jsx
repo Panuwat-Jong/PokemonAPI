@@ -11,7 +11,12 @@ function Home() {
       <div className="mx-4">
         <div className="pt-5 ">
           <div className="flex justify-center">
-            <img src="/public/logo.webp" alt="logo" className="max-h-[70px] " />
+            {/* <h1 className="text-7xl font-bold text-white">Pokédex</h1> */}
+            <img
+              src="/public/images/logo.webp"
+              alt="logo"
+              className="max-h-[70px] "
+            />
           </div>
           <SearchForm />
           {fetchPokemon.loading ? (
