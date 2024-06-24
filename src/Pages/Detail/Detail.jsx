@@ -47,7 +47,7 @@ function Detail() {
           {/* Logo */}
           <Link to={"/"} className="flex justify-center">
             <img
-              src="/public/images/logo.webp"
+              src="/public/logo.webp"
               alt="logo"
               className="max-h-[70px] "
             />
